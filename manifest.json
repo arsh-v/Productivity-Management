@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "name": "Productivity boost",
+  "description": "An extension to boost productivity manyfolds",
+  "version": "1.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjdAhEF8RiCq6Jrm9cbfWxz0ck3I4lz3r4GkIWBMV7iOyJdtU87V6K/9cR/zgWH7a/8Q9mJ1+Ig23nVLrK4kbzeOi3AMm6MUccVXi9KnQXnB4TY6oPUoC/UYLn0NzphPMw8zDNJosbK2mU2j2ecRM5O0pkh+nNS72kCfaITwPWDU0o7evmV+sH9cYeerTOtBfB9L369LkD+ZMU7mF+VxQXoURHUwtyl4Dp/cMfNzkDZiwwonUoQS6VMrGCQyfsMeCNTTZOa/ZuKXRNve5K6qSFF+aH2as6Uo9GD0vXOx/98MfMfYDHHrWATkbV6sdaiNRUtkfkmnv7IgHUeQdPTor4wIDAQAB",
+  "permissions": [
+    "tabs",
+    "input",
+    "storage",
+    "alarms",
+    "\u003Call_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "\u003Call_urls>"
+      ]
+    }
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_popup": "mainpopup.html",
+    "default_title": "A popup"
+  },
+  "icons": {
+    "16": "fast16.png",
+    "48": "fast48.png",
+    "128": "fast128.png"
+  }
+}

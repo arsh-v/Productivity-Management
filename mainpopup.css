@@ -1,0 +1,93 @@
+body{
+    background-color:black;
+    width: 400px;
+    border-radius: 20px;
+
+}
+
+h2{
+    font-style: normal;
+    color: rgb(176, 30, 196);
+    font-size: 45px;
+    font-style:initial;
+    font-family: 'Hind', sans-serif;
+}
+
+.input_set{
+    display: flex;
+}
+.in_data{
+    text-align: center;
+    /* margin: 2px 90px 2px 90px; */
+    /* margin: auto; */
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: none;
+}
+.text1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    /* font-variant: small-caps; */
+}
+
+.timer_h{
+    text-align: center;
+}
+.button{
+    background-color: none;
+    color: black;
+    border-radius: 5px;
+    width: 40%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    font-style: normal;
+}
+.button2{
+    background-color: none;
+    color: black;
+    border-radius: 5px;
+    width: 30%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    font-style: normal;
+}
+.button3{
+    background-color: none;
+    color: black;
+    border-radius: 5px;
+    width: 40%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    font-style: normal;
+}
+.button4{
+    background-color: none;
+    color: black;
+    border-radius: 5px;
+    width: 35%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    font-style: normal;
+}
+.button1{
+    background-color: none;
+    color: red;
+    border-radius: 5px;
+    width: 20%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    font-style: normal;
+}
+ 
