@@ -13,7 +13,7 @@ I did this project under coding club IIT Guwahati.
 2. After loading this chrome extention it look like.
 ![image](https://user-images.githubusercontent.com/84044819/161394298-40c70ec0-435a-407e-908a-1352a9bf1ca7.png)
 
-3. Now ypu need to click on the icon of the chrome extension then it will genarate a popup
+3. Now you need to click on the icon of the chrome extension then it will genarate a popup
 
 ![Screenshot (586)](https://user-images.githubusercontent.com/84044819/161394352-b0803ada-96f8-4663-89fa-d7e5a207cc8b.png)
 
