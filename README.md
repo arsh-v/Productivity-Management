@@ -5,7 +5,7 @@ I did this project under coding club IIT Guwahati.
 * CSS
 * HTML
 # 3.Files
-* menifest.json : menifect file for the chrome extension.
+* menifest.json : menifest file for the chrome extension.
 * mainpopup.js : this file contains baisc working of popup.
 * clock.css,block.css ,alarm.css are take care of postion of diffrent blocks.
 # How does it work?
